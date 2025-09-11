@@ -2,15 +2,14 @@ let nome = prompt("Qual seu nome?")
 let preço1
 let preço2
 let preço3
-alert(` 
-        Menu
+alert("Faça seu pedido selecione um numero 1 a 4 para selecionar seu pedido")
+
+let pedido = parseInt(prompt(`Menu
 (1) Hambúrguer – R$ 20
 (2) Pizza – R$ 35
 (3) Refrigerante – R$ 5
 (4) Batata Frita – R$ 12
-(5) Sair`)
-
-let pedido = parseInt(prompt("Faça seu pedido selecione um numero 1 a 4 para selecionar seu pedido"))
+(5) Sair`))
 if (pedido == 5) {
     alert("Muito obrigado volte sempre!")
 } else {
@@ -32,7 +31,12 @@ if (pedido == 5) {
             preço1 = 12
             break
     }
-    let pedido2 = parseInt(prompt("Faça seu pedido selecione um numero 1 a 4 para selecionar seu pedido"))
+    let pedido2 = parseInt(prompt(`Menu
+(1) Hambúrguer – R$ 20
+(2) Pizza – R$ 35
+(3) Refrigerante – R$ 5
+(4) Batata Frita – R$ 12
+(5) Sair`))
     if (pedido2 == 5) {
         alert("Muito obrigado volte sempre!")
     } else {
@@ -55,7 +59,12 @@ if (pedido == 5) {
                 break
         }
     }
-    let pedido3 = parseInt(prompt("Faça seu pedido selecione um numero 1 a 4 para selecionar seu pedido"))
+    let pedido3 = parseInt(prompt(`Menu
+(1) Hambúrguer – R$ 20
+(2) Pizza – R$ 35
+(3) Refrigerante – R$ 5
+(4) Batata Frita – R$ 12
+(5) Sair`))
     if (pedido3 == 5) {
         alert("Muito obrigado volte sempre!")
     } else {
