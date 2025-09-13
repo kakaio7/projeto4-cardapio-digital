@@ -58,8 +58,7 @@ if (pedido == 5) {
                 preço2 = 12
                 break
         }
-    }
-    let pedido3 = parseInt(prompt(`Menu
+        let pedido3 = parseInt(prompt(`Menu
 (1) Hambúrguer – R$ 20
 (2) Pizza – R$ 35
 (3) Refrigerante – R$ 5
@@ -131,4 +130,4 @@ if (pedido == 5) {
         }
 
     }
-}
+}}
